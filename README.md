@@ -7,3 +7,9 @@ Running `./mvnw clean compile` on this Spring Cloud GCP 3.6.1 project results in
 ```
 
 Downgrading to Spring Cloud GCP 3.6.0 downgrades `com.google.auto.value:auto-value` from 1.10.2 to 1.10.1, which does work with Kotlin 1.6.
+
+Related GitHub issues:
+
+* [auto-value 1.10.2 breaks compatibility with Kotlin 1.6 and 1.7](https://github.com/google/auto/issues/1574)
+* [BigQuery: google-cloud-bigquery 2.31.0 breaks compatibility with Kotlin 1.6 / 1.7 via dependency on auto-value 1.10.2](https://github.com/googleapis/java-bigquery/issues/2852)
+* [Spring Cloud GCP 3.6.1 breaks Kotlin 1.6 / 1.7 compatibility](https://github.com/GoogleCloudPlatform/spring-cloud-gcp/issues/2122)
